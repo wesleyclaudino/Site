@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("../imagens/Tucano.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #cccccc;
+	background-size: 100% 100%;
+	margin-top: 50px;
+}
+
+h1{
+	font-size: 50px;
+	color: #FF3333;
+}
+
+#nav {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+#nav li {
+	list-style: none;
+	background: #fff;
+	width: 250px;
+	border-bottom: 1px solid #666;
+}
+	
+#nav li a {
+	display: block;
+	padding: 8px;
+	border-left: 4px solid #444;
+	text-decoration: none;
+	box-shadow: 2px 2px 5px #ccc;
+	color: #555;
+	text-align: left-side;
+	vertical-align: text-align;
+}
+
+#nav li a:hover {
+	border-left: 4px solid #069;
+	background: #f8f8f8;
+}
+
+#nav li ul {
+	display: none;
+}
+
+#nav li:hover ul {
+	display: block;
+}
+
+#nav li:hover ul li {
+	background: #333;
+}
+
+#nav li:hover ul li a {
+	color: #ccc;
+}
+
+#nav li:hover ul li a:hover {
+	background: #222;
+	border-left: 4px solid #900;
+}
+
+p{
+	border-style: solid;
+	border-color: #ADD8E6;
+	border-width: 10px;
+	text-align: justify;
+	background-color: #ADD8E6;
+	margin: 50px;
+	color: black;
+}
+
+#p{
+	margin-left: 50px;
+}
